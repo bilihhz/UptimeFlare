@@ -63,7 +63,16 @@ const workerConfig: WorkerConfig = {
       expectedCodes: [200],
       timeout: 10000,
     },
-   
+   {
+      id: 'zl',
+      name: '指令',
+      method: 'HEAD',
+      target: 'https://zl.hhz114514.qzz.io/',
+      statusPageLink: 'https://zl.hhz114514.qzz.io/',
+      hideLatencyChart: false,
+      expectedCodes: [200],
+      timeout: 10000,
+    },
   ],
   notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
